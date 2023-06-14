@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from kasabar import create_app
+from kasabar.ext.commands import populate_db
+from kasabar.ext.database import db
 
 
 @pytest.fixture(scope="session")
